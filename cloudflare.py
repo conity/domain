@@ -4,11 +4,8 @@ import requests
 api_key = "YOUR_API_KEY"
 email = "YOUR_EMAIL"
 
-# 用户输入要更改的域名
-domain = input("请输入要修改的域名：")
-
-# 用户输入要更改的子域名
-subdomain = input("请输入要修改的子域名（如果没有，请留空）：")
+domain = "example.com"  # 你要修改的域名
+subdomain = "subdomain"  # 子域名，如果不需要子域名，可以留空
 
 # 用户输入新的 IP 地址
 new_ip = input("请输入新的 IP 地址：")
